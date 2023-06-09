@@ -18,8 +18,11 @@ fun myProfile() {
     println("Nama Depan: $namaDepan")
     println("Nama Belakang : $namaBelakang")
     println("Umur Saya : $Umur")
-    println("Single atau Tidak : $single")
-
+    if (single) {
+        println("Anda Sedang Single")
+    }else {
+        println("Anda Sedang Tidak Single")
+    }
 
 }
 
