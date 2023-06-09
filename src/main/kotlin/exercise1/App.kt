@@ -72,9 +72,6 @@ fun main() {
     myProfile()
     val Kevin = myGroup()
     println("Nama saya: $Kevin")
-    val myGroup = myGroup()
-    println("My Group is: $myGroup")
-
     val totalMember = totalMember()
     println("Total Member group + Mentor: $totalMember")
 
